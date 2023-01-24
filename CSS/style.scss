@@ -573,8 +573,44 @@ h1{
 
 
 
-    // RESPONSIVE ADAPTATION 840px
-    @media  (max-width: 840px) {
+        // RESPONSIVE ADAPTATION 1260px
+        @media  (max-width: 1260px) {
+
+
+            .card-main {
+    
+                .about{
+                    .about-me{
+                        .image-me{
+                            height: 40vh;
+                        }
+                    }
+                }
+            
+            }
+        }
+
+        // RESPONSIVE ADAPTATION 1055px
+        @media  (max-width: 1055px) {
+
+
+            .card-main {
+    
+                .about{
+                    .about-me{
+                        .image-me{
+                            height: 35vh;
+                        }
+                    }
+                }
+            
+            }
+        }        
+
+
+
+    // RESPONSIVE ADAPTATION 846px
+    @media  (max-width: 846px) {
 
 
         .card-main {
@@ -587,6 +623,15 @@ h1{
                 }
 
             }
+
+            .about{
+                .about-me{
+                    .image-me{
+                        height: 30vh;
+                    }
+                }
+            }
+        
         }
     }
 
@@ -609,6 +654,14 @@ h1{
                 }
 
             }
+    // ABOUT RESPONSIVE
+    .about{
+        .about-me{
+            .image-me{
+                height: 25vh;
+            }
+        }
+    }           
         }
     }
 
@@ -693,7 +746,7 @@ h1{
     .about{
         .about-me{
             .image-me{
-                height: 30vh;
+                height: 20vh;
             }
         }
     }
@@ -714,3 +767,40 @@ h1{
 }
 
     // COLOCO ICONES E TITULOS NA MESMA DIV E DPS COLOQUEI A DIV PAI DESSES DOIS EM DISPLAY FLEX
+
+    
+        // RESPONSIVE ADAPTATION 618px
+        @media  (max-width: 618px) {
+
+
+            .card-main {
+    
+                .about{
+                    .about-me{
+                    flex-direction: column;
+                    justify-content: space-around;
+                        .image-me{
+                            height: 25vh;
+                            width: 28vw;
+                            margin-bottom: 5%;
+                        }
+
+                        .informations-me{
+                            width: 100%;
+                            .informations-cv{
+                                p{
+                                    width: 100%;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .contact{
+                    .contat-me{
+                        flex-direction: column;
+                    }
+                }
+            
+            }
+        }

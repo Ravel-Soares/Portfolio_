@@ -442,9 +442,22 @@ h1 {
   text-decoration: none;
 }
 
-@media (max-width: 840px) {
+@media (max-width: 1260px) {
+  .card-main .about .about-me .image-me {
+    height: 40vh;
+  }
+}
+@media (max-width: 1055px) {
+  .card-main .about .about-me .image-me {
+    height: 35vh;
+  }
+}
+@media (max-width: 846px) {
   .card-main .home .self-informations h1 {
     font-size: 50px;
+  }
+  .card-main .about .about-me .image-me {
+    height: 30vh;
   }
 }
 @media (max-width: 740px) {
@@ -453,6 +466,9 @@ h1 {
   }
   .card-main .home .self-image {
     width: 200px;
+  }
+  .card-main .about .about-me .image-me {
+    height: 25vh;
   }
 }
 @media (max-width: 670px) {
@@ -512,7 +528,7 @@ h1 {
     width: 200px;
   }
   .about .about-me .image-me {
-    height: 30vh;
+    height: 20vh;
   }
   .skills .dev-skills {
     flex-direction: column;
@@ -520,5 +536,25 @@ h1 {
   }
   .skills .dev-skills .front, .skills .dev-skills .back {
     margin: 5% 0;
+  }
+}
+@media (max-width: 618px) {
+  .card-main .about .about-me {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .card-main .about .about-me .image-me {
+    height: 25vh;
+    width: 28vw;
+    margin-bottom: 5%;
+  }
+  .card-main .about .about-me .informations-me {
+    width: 100%;
+  }
+  .card-main .about .about-me .informations-me .informations-cv p {
+    width: 100%;
+  }
+  .card-main .contact .contat-me {
+    flex-direction: column;
   }
 }/*# sourceMappingURL=style.css.map */
