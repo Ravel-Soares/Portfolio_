@@ -141,6 +141,14 @@ h1{
                             margin: 5px 0;
                         }
                     }
+                    .titulos{
+                        button{
+                            a{
+                                text-decoration: none;
+                                color: white;
+                            }
+                        }
+                    }
 
 
     
@@ -175,6 +183,13 @@ h1{
                         background-color: transparent;
                         border:#4B56D2 1px solid;
                         color: #4B56D2;
+
+                        a{
+                            color: #4B56D2;
+                        }
+                        i{
+                            color: #4B56D2;
+                        }
                     }
                 }
 

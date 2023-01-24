@@ -106,6 +106,10 @@ h1 {
 .card-main .home .self-informations .icons-social i {
   margin: 5px 0;
 }
+.card-main .home .self-informations .titulos button a {
+  text-decoration: none;
+  color: white;
+}
 .card-main .home .self-informations h1 {
   margin-bottom: 5%;
   font-size: 60px;
@@ -132,6 +136,12 @@ h1 {
 .card-main .home .self-informations button:hover {
   background-color: transparent;
   border: #4B56D2 1px solid;
+  color: #4B56D2;
+}
+.card-main .home .self-informations button:hover a {
+  color: #4B56D2;
+}
+.card-main .home .self-informations button:hover i {
   color: #4B56D2;
 }
 .card-main .home .self-image {
